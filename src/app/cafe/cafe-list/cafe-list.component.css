@@ -1,0 +1,39 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif; /* Add font */
+}
+
+th {
+    background-color: #333A40; /* Header background */
+    padding: 8px;
+    text-align: left;
+    padding: 20px; 
+    color: white
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) { 
+    background-color: #f2f2f2; /* Alternate row color */
+}
+
+.header {
+    text-align: left;
+    padding: 20px; 
+  }
+
+  .header img {
+    border-top: 2px solid rgb(102, 102, 102); /* Línea arriba de la imagen */
+    border-bottom: 2px solid rgb(102, 102, 102); /* Línea abajo de la imagen */
+    display: block; /* Para que los bordes ocupen todo el ancho */
+    margin: 0 auto; /* Para centrar la imagen */
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
